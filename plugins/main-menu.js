@@ -572,9 +572,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
     throw e
   }
 }
-handler.help = ['oscar']
+handler.help = ['.menu']
 handler.tags = ['main']
-handler.command = /^(KRIZ|Jarotlist|zifa|\?)$/i
+handler.command = /^(.menu|\?)$/i
 handler.register = true
 handler.owner = false
 handler.mods = false
